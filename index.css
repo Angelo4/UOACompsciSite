@@ -1,0 +1,186 @@
+html {
+  min-height: 100%
+}
+
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: white;
+    box-shadow: 2px 2px 2px #d8d8d8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: inline-block;
+    height: 50px;
+}
+
+/*new nav stops here*/
+#logo {
+  list-style-type: none;
+  display: inline-block;
+  height: 80px;
+}
+
+div.nav-container ul li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #00467f;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    box-shadow: 2px 2px 2px #d8d8d8;
+    /*nav bar button hover colour - #0082a7*/
+    background-color: #0082a7;
+    color: white;
+    height: 22px;
+}
+
+ul.topnav li.icon {
+  display: none;
+}
+
+@media screen and (max-width:680px) {
+  li a {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: '';
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
+    margin:0;
+    /*page background colour - */
+    background-color: #f3f3f3;
+    height: 100%;
+
+}
+
+.home-format {
+  margin-top: 5px;
+}
+
+h1 {
+  margin-left: 100px;
+  /*Main header text colour*/
+  color: #00467f;
+}
+
+h2 {
+  margin-left: 100px;
+  margin-bottom: -15px;
+}
+
+footer {
+  height: 30px;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.course-code {
+  font-weight: bold;
+
+}
+
+.course-points {
+
+}
+
+.test {
+  font-size: 30px;
+  font-style: bold;
+}
+
+.course-form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card {
+  -moz-box-shadow: 0px 3px 8px #d8d8d8;
+  -webkit-box-shadow: 0px 3px 8px #d8d8d8;
+  box-shadow: 0px 3px 8px #d8d8d8;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 15px;
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.news-date {
+    font-weight: lighter;
+    font-size: 12px;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.news-description {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.linkCursor {
+  cursor: pointer;
+}
+
+.linkText:hover {
+    color: #0082a7;
+}
+
+.flexbox { display: flex; }
+  .flexbox .stretch { flex: 4; }
+  .flexbox .normal { flex: 0; margin: 0 0 0 1rem; }
+  .flexbox .bigbox { padding: .5em 1em; width: 94%; height: 100px; border-color: #d8d8d8;}
+  .flexbox .namebox {height: 20px; padding-left: 10px; margin-bottom: 2px; width: 200px;}
+  .flexbox div button { padding: .5em 1em; white-space: nowrap; margin-top: 2px;}
+
+.nametag {
+  margin-bottom: 2px;
+}
+
+.photo {
+    float: left;
+    height: 90px;
+    padding-right: 12px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: left;
+  word-wrap: normal;
+}

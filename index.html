@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Assignment 2</title>
+  <link rel="shortcut icon" type="image/png" href="https://cdn.auckland.ac.nz/designs/global/favicon.png"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script src="index.js"></script>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="nav-container">
+    <ul class="topnav" id="myTopnav">
+        <li class="linkCursor" onclick="showHome()"><img id="logo" src="http://redsox.tcs.auckland.ac.nz/ups/logo.svg" alt="Uni logo"></li>
+        <li class="linkCursor" onclick="showHome()"><a>Home</a></li>
+        <li class="linkCursor" onclick="showCourses()"><a>Courses</a></li>
+        <li class="linkCursor" onclick="showPeople()"><a>People</a></li>
+        <li class="linkCursor" onclick="showNews()"><a>News</a></li>
+        <li class="linkCursor" onclick="showNotices()"><a>Notices</a></li>
+        <li class="linkCursor" onclick="showGuestbook()"><a>Guest Book</a></li>
+        <li class="icon">
+          <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">&#9776;</a>
+        </li>
+    </ul>
+  </div>
+</div>
+
+<div id="home">
+  <h1>Home</h1>
+  <h2>Welcome</h2>
+  <div class="card">
+    <p class="home-format">
+      Welcome to New Zealand's leading computer science department. We pride ourselves on the excellence of our staff and our students.
+    </p>
+  </div>
+  <h2>What is Computer Science?</h2>
+  <div class="card">
+    <p class="home-format">Computer Science study includes the following broad topics:</p>
+    <ul>
+    <li>How computers manage and process information - algorithms, data structures and data management.</li>
+    <li>How computers and computer systems work - architecture, systems software, programming languages, data communications, networks, security.</li>
+    <li>Applications of computers in science and society - artificial intelligence, human-computer interaction, the Internet, computer graphics, computer vision, robotics.</li>
+    <li>The limitations of computers - computational complexity and computability.</li>
+    </ul>
+    <p>Computer Science as a subject is closely related to, but essentially different from, fields such as Software Engineering, Information Technology,
+    Information Systems, Computer Engineering. It also has strong links with Mathematics. Because of the importance of computation in modern life,
+    Computer Science has an ever-growing relationship with many other disciplines in the sciences, engineering and humanities.</p>
+  </div>
+  <h2>Why study Compsci?</h2>
+  <div class="card">
+    <ul class="home-format">
+      <li>Excitement and challenge: Computer Science is a fast-moving and varied field. It has deep philosophical and mathematical questions, startling new applications that make a real difference to our quality of life, and fun gadgets.</li>
+      <li>Key transferable skills: Logical thinking, problem solving, abstraction and systematic analysis are not second mature for most people, yet are highly transferable to other disciplines and greatly in demand. Formal study of Computer Science is a great way to develop these skills.</li>
+      <li>Great job prospects: Computing jobs are among the highest paid and have the highest job satisfaction. This is because the computer industries run on innovation - the emphasis on new ideas leads to higher productivity, and keeps the mind fresh.</li>
+      <li>Future proofing: A deeper and broader understanding of computers allows us to cope better with increasingly rapid changes in technology.</li>
+    </ul>
+  </div>
+</div>
+
+<div id="courses">
+  <h1>Courses</h1>
+  <h2>Stage 1</h2>
+  <div id="stage1" class="card">
+  </div>
+  <h2>Stage 2</h2>
+  <div id="stage2" class="card">
+  </div>
+  <h2>Stage 3</h2>
+  <div id="stage3" class="card">
+  </div>
+  <h2>Postgrad</h2>
+  <div id="postgrad" class="card">
+  </div>
+</div>
+
+<div id="people">
+  <h1>People</h1>
+  <span style="padding-left:100px;">Click persons name to save contact to device</span>
+
+<!--
+  <h2>Angelo Alcantara</h2>
+  <div class="card" onclick="location.href='https://www.google.co.nz/?gfe_rd=cr&ei=9Lf5V7q0G9LN8geW65GwBQ'">
+    <div class="left">
+        <img class="photo" src="https://unidirectory.auckland.ac.nz//people/imageraw/id-watson/10300600/large" alt="" />
+    </div>
+    <div class="right">
+      <span>Department: Faculty of Science</span><br>
+      <span>Email: angelo_alcantara@icloud.com</span><br>
+      <span>Phone: +64210572839</span><br>
+      <span>Position: Student</span><br>
+      <span>Address: 7 Mulroy Place, Pinehill, Auckland 0632, sf skd vv d vd v fdv d jj</span><br>
+    </div>
+    <div style="clear:both;"/></div>
+</div>
+-->
+
+</div>
+
+<div id="news">
+  <h1>News</h1>
+</div>
+
+<div id="notices">
+  <h1>Notices</h1>
+</div>
+
+<div id="guestbook">
+  <h1>Guest Book</h1>
+  <h2>Post Comment</h2>
+  <div class="card">
+      <section class="flexbox">
+        <div class="stretch">
+          <span class="nametag">Name:</span><br>
+          <input id="nameInput" class="namebox" type="text" placeholder="Shown name..."><br>
+          <textarea id="commentInput" class="bigbox" type="text" placeholder="Write a comment..." /></textarea>
+          <button onclick="inputSubmit()">Submit</button>
+        </div>
+      </section>
+  </div>
+  <h2>Comments</h2>
+  <div id="lol" class="card">
+
+  </div>
+</div>
+
+</body>
+
+<footer></footer>
+
+</html>
